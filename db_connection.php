@@ -4,7 +4,7 @@
 $host = 'localhost';
 $db = 'clients';
 $user = 'root';
-$password = 'root';
+$password = 'Qweasd1999@';
 
 
 $conn = new mysqli($host, $user, $password, $db);

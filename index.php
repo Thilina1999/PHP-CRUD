@@ -96,8 +96,8 @@ $result = $conn->query($sql);
                         <td>{$row['phone']}</td>
                         <td>{$row['address']}</td>
                         <td>
-                        <a href='/CRUD/create.php?id=$row[id]'>
-                            <button class='btn btn-primary btn-sm' data-toggle='modal' data-target='#addClientModal'>Edit</button>
+                        <a href='/PHP-CRUD/update.php?id=$row[id]'>
+                            <button class='btn btn-primary btn-sm'>Edit</button>
                         </a>
                             
                             <button class='btn btn-danger btn-sm'>Delete</button>
